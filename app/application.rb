@@ -33,7 +33,6 @@ class Application
     else
       resp.write "Path Not Found"
     end
-
     resp.finish
   end
 
@@ -44,4 +43,5 @@ class Application
       return "Couldn't find #{search_term}"
     end
   end
+
 end
